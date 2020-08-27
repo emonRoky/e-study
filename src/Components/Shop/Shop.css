@@ -1,0 +1,17 @@
+.course-container{
+    display: flex;
+}
+.course{
+    width: 70%;
+    /* margin-left: 20px;
+    margin-right: 5px; */
+    margin: 30px;
+    border-right: 1px solid lightgray;
+}
+.course-section{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    /* flex: 1; */
+    flex-basis: 33.33%;
+}
